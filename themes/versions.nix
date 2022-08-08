@@ -2,14 +2,14 @@
   agency = {
     owner  = "divnix";
     repo   = "styx-theme-agency";
-    rev    = "289accb";
-    sha256 = "02ypgc39y0h5rxglvzgh0qryab92xp06dqakbxdyqxp7a69ri830";
+    rev    = "612da12";
+    sha256 = "14994ibs1i7cvkjx197zzmcnywl48dxlcl7q13j4rh8kvrknxh9w";
   };
   generic-templates = {
     owner  = "divnix";
     repo   = "styx-theme-generic-templates";
-    rev    = "60badc5";
-    sha256 = "15mqfnwk5k7bsjpjja45cnh2il2aav8r07b1cf6ac5r8q00n4w6g";
+    rev    = "6a2d5d7";
+    sha256 = "1n7hw6ph96ll9gnhxg8dlvwayidl763y63xbrbrw4asdrbmi592w";
   };
   ghostwriter = {
     owner  = "divnix";
@@ -32,8 +32,8 @@
   orbit = {
     owner  = "divnix";
     repo   = "styx-theme-orbit";
-    rev    = "e380342";
-    sha256 = "16xsdp6r4767agfiv057vnm1wwssv112j4z7gyfvwwagi3j4c30a";
+    rev    = "5c5e210";
+    sha256 = "1l6f6n3060ph6z2nixmzj7527zs5819kgcsv31m7smym6gl6ay6d";
   };
   showcase = {
     owner  = "divnix";
