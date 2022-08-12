@@ -58,12 +58,12 @@
     $ git push origin HEAD --tag --force
     ```
 
-2. Update the themes demo sites, run the following in the [themes repo](https://github.com/styx-static/themes)
+2. Update the themes demo sites, run the following in the [themes repo](https://github.com/divnix/themes)
 
     ```sh
     $ ./scripts/demo-sites
     ```
 
-3. Make a [post](https://github.com/styx-static/styx-site/tree/master/posts) on the [styx official site](https://github.com/styx-static/styx-site) announcing the release
+3. Make a [post](https://github.com/divnix/styx-site/tree/master/posts) on the [styx official site](https://github.com/divnix/styx-site) announcing the release
 
 4. Done

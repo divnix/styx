@@ -1,7 +1,7 @@
 # Contributing to Styx
 
 Thank you for being interested in contributing to this project!
-Feel free to ask questions on the [issue tracker](https://github.com/styx-static/styx/issues).
+Feel free to ask questions on the [issue tracker](https://github.com/divnix/styx/issues).
 
 ## Setting up a development environment
 
@@ -14,7 +14,7 @@ Setting up a development environment requires [`nix`](https://nixos.org/nix/).
 Clone this repository:
 
 ```
-$ git clone https://github.com/styx-static/styx.git
+$ git clone https://github.com/divnix/styx.git
 ```
 
 ### Styx
@@ -49,7 +49,7 @@ $ nix repl ./nixpkgs
 nix-repl> site = callPackage (import "${(import styx.themes).showcase}/example/site.nix") {}
 
 nix-repl> site.conf
-{ siteUrl = "https://styx-static.github.io/styx-theme-showcase"; theme = { ... }; }
+{ siteUrl = "https://divnix.github.io/styx-theme-showcase"; theme = { ... }; }
 ```
 
 ## Commit policy

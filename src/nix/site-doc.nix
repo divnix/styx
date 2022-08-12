@@ -2,6 +2,7 @@
 , styx, writeText, runCommand
 , asciidoctor
 , site
+, pkgs
 }:
 
 let

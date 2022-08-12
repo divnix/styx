@@ -1,44 +1,44 @@
 {
   agency = {
-    owner  = "styx-static";
+    owner  = "divnix";
     repo   = "styx-theme-agency";
-    rev    = "bed3e0b";
-    sha256 = "1l9nycm404z4svd9dn6zdsw149j8g9brzw6sb7cfd4kq07d9g98d";
+    rev    = "289accb";
+    sha256 = "02ypgc39y0h5rxglvzgh0qryab92xp06dqakbxdyqxp7a69ri830";
   };
   generic-templates = {
-    owner  = "styx-static";
+    owner  = "divnix";
     repo   = "styx-theme-generic-templates";
-    rev    = "a276f19";
-    sha256 = "1ilazhqgrr1l554xr1sdvnhcb460qs19cdbfj77k5762px0nvk9g";
+    rev    = "60badc5";
+    sha256 = "15mqfnwk5k7bsjpjja45cnh2il2aav8r07b1cf6ac5r8q00n4w6g";
   };
   ghostwriter = {
-    owner  = "styx-static";
+    owner  = "divnix";
     repo   = "styx-theme-ghostwriter";
-    rev    = "00ace0c";
-    sha256 = "1dah97sv13cbv9sj73njdpcnvhhhnigxi27d94y8l2v5k68b1620";
+    rev    = "016a3fb";
+    sha256 = "1gwsgqjq2kvndx9crk2py53sc8xpq1izdvckv5a1xd75ph44l14r";
   };
   hyde = {
-    owner  = "styx-static";
+    owner  = "divnix";
     repo   = "styx-theme-hyde";
-    rev    = "8769efa";
-    sha256 = "0dz2cvg8jrw12cldgsah8098dk9ai4mxk9k76r78q0l26xfa9lw5";
+    rev    = "e9edb34";
+    sha256 = "1fvfgzvdsy4fsmq05anz23gsm6j0xqj5ch03y6b9nzls6v6qsng0";
   };
   nix = {
-    owner  = "styx-static";
+    owner  = "divnix";
     repo   = "styx-theme-nix";
-    rev    = "99096b0";
-    sha256 = "1r7ljzicv6qn3h3wfh3pg7jyiplxni6v52ixkx6b1xifiqmlnq63";
+    rev    = "ac214ac";
+    sha256 = "0w698vaflw19psll5sgaa0q1jglfxgzyhpfya5aqdbn2vhcqc190";
   };
   orbit = {
-    owner  = "styx-static";
+    owner  = "divnix";
     repo   = "styx-theme-orbit";
-    rev    = "974b91a";
-    sha256 = "0mrf4xa9rhm0435y20iv9mvpg48z4m5jxp7mrr0c4ri8xyf6yqm4";
+    rev    = "e380342";
+    sha256 = "16xsdp6r4767agfiv057vnm1wwssv112j4z7gyfvwwagi3j4c30a";
   };
   showcase = {
-    owner  = "styx-static";
+    owner  = "divnix";
     repo   = "styx-theme-showcase";
-    rev    = "246f7a2";
-    sha256 = "0m2cw05n9vpm9mnq3dpjgrykbnb8v991g9f1bszw81l7amlc3g5n";
+    rev    = "867aba8";
+    sha256 = "14dd8v6r7ml29l8ds1p3j1897gx1h34k8hc4dv1f6w1sip5mv0n5";
   };
 }

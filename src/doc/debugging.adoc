@@ -20,7 +20,7 @@ $ nix repl "<nixpkgs>"
 nix-repl> site = callPackage (import ./site.nix) {}
 
 nix-repl> site.conf
-{ siteUrl = "https://styx-static.github.io/styx-theme-showcase"; theme = { ... }; }
+{ siteUrl = "https://divnix.github.io/styx-theme-showcase"; theme = { ... }; }
 ----
 
 === Using lib functions

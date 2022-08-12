@@ -24,13 +24,13 @@ It is possible to directly install the latest version of styx by running the fol
 
 [source, shell]
 ----
-$ nix-env -i $(nix-build https://github.com/styx-static/styx/archive/latest.tar.gz)
+$ nix-env -i $(nix-build https://github.com/divnix/styx/archive/latest.tar.gz)
 ----
 
 Or to start a nix-shell with the latest styx stable version:
 
 [source, shell]
 ----
-$ nix-shell -p $(nix-build https://github.com/styx-static/styx/archive/latest.tar.gz)
+$ nix-shell -p $(nix-build https://github.com/divnix/styx/archive/latest.tar.gz)
 ----
 ====

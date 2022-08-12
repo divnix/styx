@@ -15,7 +15,7 @@
 
 The library contains various functions that can be used in `site.nix` and templates.
 
-This file is generated with a link:https://github.com/styx-static/styx/blob/master/scripts/library-doc.nix[nix expression].
+This file is generated with a link:https://github.com/divnix/styx/blob/master/scripts/library-doc.nix[nix expression].
 
 - link:./index.html[Styx documentation]
 

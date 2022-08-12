@@ -1,6 +1,6 @@
 # Styx
 
-![Build Status](https://github.com/styx-static/styx/workflows/Build/badge.svg)
+![Build Status](https://github.com/divnix/styx/workflows/Build/badge.svg)
 
 The purely functional static site generator written in the Nix expression language.
 
@@ -15,7 +15,7 @@ Styx has no other dependency than Nix, if Nix is installed, run the following to
 
 ```ShellSession
 # if using flakes
-$ nix shell github:styx-static/styx
+$ nix shell github:divnix/styx
 # otherwise
 $ nix-shell -p styx
 ```
@@ -27,7 +27,7 @@ Styx also extends AsciiDoc and Markdown with custom operators that can split a s
 
 ### Embedded nix
 
-Nix can be [embedded in markup files](https://styx-static.github.io/styx-theme-showcase/posts/2016-09-17-media.html)!
+Nix can be [embedded in markup files](https://divnix.github.io/styx-theme-showcase/posts/2016-09-17-media.html)!
 
 ### Handling of sass/scss
 
@@ -76,14 +76,14 @@ $ styx --help
 The version you will get will depend on the version of nixpkgs used. To get the latest stable release without relying on nixpkgs:
 
 ```
-$ nix-env -i $(nix-build https://github.com/styx-static/styx/archive/latest.tar.gz)
+$ nix-env -i $(nix-build https://github.com/divnix/styx/archive/latest.tar.gz)
 $ styx --help
 ```
 
 or
 
 ```
-$ nix-shell -p $(nix-build https://github.com/styx-static/styx/archive/latest.tar.gz)
+$ nix-shell -p $(nix-build https://github.com/divnix/styx/archive/latest.tar.gz)
 $ styx --help
 ```
 
@@ -94,7 +94,7 @@ The official Styx site is an example of a basic software site with release news.
 - generating the documentation for every version of styx
 - generating a page for every official theme
 
-See [site.nix](https://github.com/styx-static/styx-site/blob/master/site.nix) for implementation details.
+See [site.nix](https://github.com/divnix/styx-site/blob/master/site.nix) for implementation details.
 
 
 ## As a Nix laboratory
@@ -115,9 +115,9 @@ Library function tests can print a coverage or a report (with pretty printing):
     $ cat $(nix-build --no-out-link -A report tests/lib.nix)
     ```
 
-- [scripts/library-doc.nix](./scripts/library-doc.nix) is a nix expression that generate an AsciiDoc documentation from the library `documentedFunction`s ([example](https://styx-static.github.io/styx-site/documentation/library.html)).
+- [scripts/library-doc.nix](./scripts/library-doc.nix) is a nix expression that generate an AsciiDoc documentation from the library `documentedFunction`s ([example](https://divnix.github.io/styx-site/documentation/library.html)).
 
-- [scripts/themes-doc.nix](./scripts/themes-doc.nix) and [src/nix/site-doc.nix](./src/nix/site-doc.nix) are nix expressions that automatically generate documentation for styx themes, including configuration interface and templates ([example](https://styx-static.github.io/styx-site/documentation/styx-themes.html)). This feature is leveraged in the `styx site-doc` command to dynamically generate the documentation for a site according to used themes.
+- [scripts/themes-doc.nix](./scripts/themes-doc.nix) and [src/nix/site-doc.nix](./src/nix/site-doc.nix) are nix expressions that automatically generate documentation for styx themes, including configuration interface and templates ([example](https://divnix.github.io/styx-site/documentation/styx-themes.html)). This feature is leveraged in the `styx site-doc` command to dynamically generate the documentation for a site according to used themes.
 
 - `lib.prettyNix` is a pure nix function that pretty print nix expressions.
 
@@ -128,8 +128,8 @@ Library function tests can print a coverage or a report (with pretty printing):
 
 ## Links
 
-- [Official site](https://styx-static.github.io/styx-site/)
-- [Documentation](https://styx-static.github.io/styx-site/documentation/)
+- [Official site](https://divnix.github.io/styx-site/)
+- [Documentation](https://divnix.github.io/styx-site/documentation/)
 
 
 ## Contributing
@@ -139,6 +139,6 @@ See [contributing.md](./contributing.md).
 
 ## Feedback
 
-Any question or issue should be posted in the [github issue tracker](https://github.com/styx-static/styx/issues).
+Any question or issue should be posted in the [github issue tracker](https://github.com/divnix/styx/issues).
 Themes and features requests are welcome!
 And please let me know if you happen to run a site on styx!

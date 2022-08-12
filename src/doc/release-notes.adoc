@@ -150,7 +150,7 @@ Changes involve, among others, the init section of `site.nix`, `site.nix` return
 
 Comments:
 
-This is the first close to stable release of styx. Please test and send any bug or question to the link:https://github.com/styx-static/styx/issues[bug tracker].
+This is the first close to stable release of styx. Please test and send any bug or question to the link:https://github.com/divnix/styx/issues[bug tracker].
 
 ---
 
@@ -179,7 +179,7 @@ The main changes involve the init section of `site.nix`.
 Highlights:
 
 - <<Themes,Themes as first class citizens>>
-- link:https://github.com/styx-static/themes[New themes]
+- link:https://github.com/divnix/themes[New themes]
 - Styx library is automatically bundled
 - <<Taxonomies>>
 - <<library,New functions in library, new sub libraries>>
